@@ -1,0 +1,12 @@
+#common monitoring metric used: execution time.
+#common monitoring method used: automated alerts (in case of error), periodic checks (using schedule library), visual analytics (himal bhai ko part)
+
+
+'''
+#how does logging levels work?
+DEBUG: Detailed internal steps. eg; fetched 100 rows from the api
+INFO: normal pipeline progress. eg; etl pipeline started
+WARNING: something unexpected but not breaking happened, eg; missing values in email columns
+ERROR: something failed but the program is still runnning, eg; failed to fetch API data
+CRITICAL: system-breaking issue occurs. eg; database completely unavailable
+'''

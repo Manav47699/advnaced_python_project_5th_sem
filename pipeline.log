@@ -1,0 +1,11 @@
+2026-03-25 20:03:23,965 - INFO - Monitoring pipeline started for MSFT
+2026-03-25 20:03:24,636 - INFO - Transformed 7 rows (ready to monitor)
+2026-03-25 20:03:24,651 - INFO - Row for 2026-03-16 already exists. Skipping insert.
+2026-03-25 20:03:24,652 - INFO - Row for 2026-03-17 already exists. Skipping insert.
+2026-03-25 20:03:24,653 - INFO - Row for 2026-03-18 already exists. Skipping insert.
+2026-03-25 20:03:24,653 - INFO - Row for 2026-03-19 already exists. Skipping insert.
+2026-03-25 20:03:24,653 - INFO - Row for 2026-03-20 already exists. Skipping insert.
+2026-03-25 20:03:24,653 - INFO - Row for 2026-03-23 already exists. Skipping insert.
+2026-03-25 20:03:24,653 - INFO - Row for 2026-03-24 already exists. Skipping insert.
+2026-03-25 20:03:24,654 - INFO - Monitoring/insert completed. 0 new rows added.
+2026-03-25 20:03:24,654 - INFO - Monitoring pipeline finished successfully in 0.69 seconds
