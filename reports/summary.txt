@@ -1,0 +1,4 @@
+avg_close: 388.25
+max_close: 399.95
+min_close: 372.74
+total_volume: 228276094

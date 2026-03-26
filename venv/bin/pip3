@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/manav/Projects/scheduling, logging, monitoring/venv/bin/python3" "$0" "$@"
-' '''
+#!/home/himalbhandari/advnaced_python_project_5th_sem/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
