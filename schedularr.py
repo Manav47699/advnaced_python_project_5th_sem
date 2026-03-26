@@ -2,6 +2,10 @@ import schedule
 import time
 from etl import run_pipeline as run_etl
 from logging_and_monitoring import run_pipeline as run_monitoring
+from report_generation import generate_report
+from send_email import send_email
+
+
 
 def job():
     print("Starting etl pipeline...")
@@ -11,12 +15,27 @@ def job():
     except Exception as e:
         print(f"ETL pipeline failed: {e}")
 
+
     print("Starting logging_and_monitoring pipeline...")
     try:
         run_monitoring("MSFT")
         print("Monitoring pipeline finished successfully.")
     except Exception as e:
         print(f"Monitoring pipeline failed: {e}")
+
+
+    try:
+        generate_report()
+        print("Report generated sucesfully.")
+    except Exception as e:
+        print(f"Report generation failed: {e}")
+
+
+    try:
+        send_email()
+        print("Email sent succesfully")
+    except Exception as e:
+        print(f"Email failed to send: {e}")
 
 
 schedule.every().day.at("21:00").do(job)
